@@ -1,4 +1,4 @@
-name: update_gd
+name: Fork_gd
 
 on:
   schedule:
