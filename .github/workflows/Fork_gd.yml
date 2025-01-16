@@ -2,7 +2,7 @@ name: Fork_gd
 
 on:
   schedule:
-    - cron: '20 9,23 * * *' 
+    - cron: '35 9,23 * * *' 
   workflow_dispatch:
     branches:
       - main
