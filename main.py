@@ -88,7 +88,7 @@ def match_channels(template_channels, all_channels):
 
 def filter_source_urls(template_file):
     template_channels = parse_template(template_file)
-    source_urls = configdx.source_urls
+    source_urls = config.source_urls
 
     all_channels = OrderedDict()
     for url in source_urls:
@@ -110,7 +110,7 @@ def updateChannelUrlsM3U(channels, template_channels):
     written_urls = set()
 
     with open("guangdian.m3u", "w", encoding="utf-8") as f_m3u:
-        f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in configdx.epg_urls)}\n""")
+        f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n""")
 
         with open("guangdian.txt", "w", encoding="utf-8") as f_txt:
             for category, channel_list in template_channels.items():
@@ -118,10 +118,10 @@ def updateChannelUrlsM3U(channels, template_channels):
                 if category in channels:
                     for channel_name in channel_list:
                         if channel_name in channels[category]:
-                            sorted_urls = sorted(channels[category][channel_name], key=lambda url: not is_ipv6(url) if configdx.ip_version_priority == "ipv6" else is_ipv6(url))
+                            sorted_urls = sorted(channels[category][channel_name], key=lambda url: not is_ipv6(url) if config.ip_version_priority == "ipv6" else is_ipv6(url))
                             filtered_urls = []
                             for url in sorted_urls:
-                                if url and url not in written_urls and not any(blacklist in url for blacklist in configdx.url_blacklist):
+                                if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):
                                     filtered_urls.append(url)
                                     written_urls.add(url)
 
