@@ -1,4 +1,4 @@
-name: Daily
+name: update_gd
 
 on:
   schedule:
