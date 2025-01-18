@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg.v1.mk/pp.xml","https://live.fanmingming.com/e.xml","http://epg.51zmt.top:8000/e.xml","https://epg.pw/xmltv/epg_CN.xml","https://epg.pw/xmltv/epg_HK.xml","https://epg.pw/xmltv/epg_TW.xml"
+#EXTM3U url-tvg="https://epg.v1.mk/pp.xml"
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="央视频道",CCTV1
 http://ipipip/udp/239.77.1.17:5146
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="央视频道",CCTV1
