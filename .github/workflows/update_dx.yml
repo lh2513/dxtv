@@ -1,8 +1,8 @@
 name: update_dx
 
 on:
-  schedule:
-    - cron: '30 23 * * *' 
+  #schedule:
+    #- cron: '30 23 * * *' 
   push:
     branches:
       - main
