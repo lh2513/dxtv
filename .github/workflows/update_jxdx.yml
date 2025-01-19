@@ -27,7 +27,7 @@ jobs:
         run: pip install selenium requests futures eventlet
 
       - name: Run iptv
-        run: python ${{ github.workspace }}/oldlinkstest.py
+        run: python ${{ github.workspace }}/jiangxi.py
         
       - name: 提交
         run: |
