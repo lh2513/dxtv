@@ -31,8 +31,6 @@ jobs:
         
       - name: 提交
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add .
           git commit *.txt -m "Add generated file"
           #git commit *.m3u -m "Add generated file"
