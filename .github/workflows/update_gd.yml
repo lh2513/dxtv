@@ -1,8 +1,8 @@
 name: update_gd
 
 on:
-  schedule:
-    - cron: '15 9 * * *'
+  #schedule:
+    #- cron: '0 9 * * *'
   push:
     branches:
       - main
