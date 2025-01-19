@@ -87,7 +87,7 @@ http://mail.tx.hxinbeng.top:4022/rtp/239.252.219.143:5140
 http://mail.tx.hxinbeng.top:4022/rtp/239.252.220.150:5140
 #EXTINF:-1 tvg-id="2" tvg-name="CGTN英语" tvg-logo="https://epg.v1.mk/logo/CGTN英语.png" group-title="央视频道",CGTN英语
 http://mail.tx.hxinbeng.top:4022/rtp/239.252.219.194:5140
-#EXTINF:-1 tvg-id="1" tvg-name="CGTN Documentary" tvg-logo="https://epg.v1.mk/logo/CGTN Documentary.png" group-title="央视频道",CGTN Documentary
+#EXTINF:-1 tvg-id="1" tvg-name="CGTN纪录" tvg-logo="https://epg.v1.mk/logo/CGTN纪录.png" group-title="央视频道",CGTN纪录
 http://mail.tx.hxinbeng.top:4022/rtp/239.252.219.195:5140
 #EXTINF:-1 tvg-id="1" tvg-name="CGTN西班牙语" tvg-logo="https://epg.v1.mk/logo/CGTN西班牙语.png" group-title="央视频道",CGTN西班牙语
 http://mail.tx.hxinbeng.top:4022/rtp/239.252.219.196:5140
