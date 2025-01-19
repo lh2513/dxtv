@@ -1,2 +1,5 @@
-2025-01-19 07:53:27,544 - INFO - url: https://raw.githubusercontent.com/ngdikman/hksar/refs/heads/main/guangdian.m3u 获取成功，判断为m3u格式
-2025-01-19 07:53:27,545 - INFO - url: https://raw.githubusercontent.com/ngdikman/hksar/refs/heads/main/guangdian.m3u 爬取成功✅，包含频道分类: 广东, 央视, 其他, 卫视
+2025-01-19 15:40:06,689 - INFO - url: https://raw.githubusercontent.com/lh2513/dxtv/refs/heads/main/GDIPTV.m3u 获取成功，判断为m3u格式
+2025-01-19 15:40:06,690 - INFO - url: https://raw.githubusercontent.com/lh2513/dxtv/refs/heads/main/GDIPTV.m3u 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 广东频道
+2025-01-19 15:40:06,994 - INFO - url: https://raw.githubusercontent.com/lh2513/dxtv/refs/heads/main/guangdian.m3u 获取成功，判断为m3u格式
+2025-01-19 15:40:06,995 - INFO - url: https://raw.githubusercontent.com/lh2513/dxtv/refs/heads/main/guangdian.m3u 爬取成功✅，包含频道分类: 央视频道, 卫视频道, 广东频道
+2025-01-19 15:40:07,109 - ERROR - url: https://raw.githubusercontent.com/lh2513/dxtv/refs/heads/main/GDIPTVJX.m3u 爬取失败❌, Error: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/lh2513/dxtv/refs/heads/main/GDIPTVJX.m3u
