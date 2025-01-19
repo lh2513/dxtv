@@ -1,17 +1,9 @@
-# hksar
-> 广电国内直连短链
-```
-https://backin.wang/guangdian
-```
+# IPTV自用fork自大佬资源
+https://github.com/redrainl/iptv
 
----
+https://github.com/zjykfy/yy-ff-yy
 
-> 电信国内直连短链
-```
-https://backin.wang/GDIPTV
-```
-> 电信备用国内直连短链
-```
-https://backin.wang/GDIPTV-SP
-```
+https://github.com/yezbing/gddx
+
+https://github.com/zjykfy/cc-aa-ii
 
