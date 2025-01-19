@@ -2,7 +2,7 @@ name: update_jx
 
 on:
   schedule:
-    - cron: '0 9,23 * * *' 
+    - cron: '15 9 * * *' 
   push:
     branches:
       - main
