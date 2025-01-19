@@ -109,10 +109,10 @@ def is_ipv6(url):
 def updateChannelUrlsM3U(channels, template_channels):
     written_urls = set()
 
-    with open("guangdian.m3u", "w", encoding="utf-8") as f_m3u:
+    with open("fofa_live.m3u", "w", encoding="utf-8") as f_m3u:
         f_m3u.write(f"""#EXTM3U x-tvg-url={",".join(f'"{epg_url}"' for epg_url in config.epg_urls)}\n""")
 
-        with open("guangdian.txt", "w", encoding="utf-8") as f_txt:
+        with open("fofa_live.txt", "w", encoding="utf-8") as f_txt:
             for category, channel_list in template_channels.items():
                 f_txt.write(f"{category},#genre#\n")
                 if category in channels:
