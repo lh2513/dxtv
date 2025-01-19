@@ -11,28 +11,30 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-script:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
-      
-    - name: Install Dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y yt-dlp sed nmap
+      - name: Checkout code
+        uses: actions/checkout@v2
+    
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install selenium requests futures eventlet
+
+      - name: Run iptv
+        run: python ${{ github.workspace }}/oldlinkstest.py
         
-    - name: Run Multitest Script
-      #working-directory: zubo/speedtest
-      run: |
-       bash $GITHUB_WORKSPACE/gd.sh
-        
-    - name: Update Results
-      run: |
-        cd $GITHUB_WORKSPACE
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git commit -m "Update files"
-        git push
+      - name: 提交
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit *.txt -m "Add generated file"
+          #git commit *.m3u -m "Add generated file"
+          #git pull --rebase
+          git push -f=
