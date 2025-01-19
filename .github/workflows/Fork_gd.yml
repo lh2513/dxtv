@@ -1,8 +1,8 @@
-name: Fork_gd
+name: Fork_tv
 
 on:
-  schedule:
-    - cron: '50 9,23 * * *' 
+  #schedule:
+    #- cron: '50 9,23 * * *' 
   workflow_dispatch:
     branches:
       - main
