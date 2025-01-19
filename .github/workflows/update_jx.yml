@@ -28,7 +28,7 @@ jobs:
     - name: Run Multitest Script
       #working-directory: zubo/speedtest
       run: |
-       bash $GITHUB_WORKSPACE/dx.sh
+       bash $GITHUB_WORKSPACE/jx.sh
         
     - name: Update Results
       run: |
