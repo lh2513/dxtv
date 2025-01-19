@@ -3,7 +3,7 @@ ip_version_priority = "ipv6"
 source_urls = [
     "https://raw.githubusercontent.com/lh2513/dxtv/refs/heads/main/GDIPTV.m3u",
     "https://raw.githubusercontent.com/lh2513/dxtv/refs/heads/main/guangdian.m3u",
-    "https://raw.githubusercontent.com/lh2513/dxtv/refs/heads/main/GDIPTVJX.m3u"
+    "https://raw.githubusercontent.com/lh2513/dxtv/refs/heads/main/JXIPTV.m3u"
 ]
 
 url_blacklist = [
