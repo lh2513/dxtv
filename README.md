@@ -1,4 +1,4 @@
-# IPTV自用fork自大佬资源
+# IPTV资源fork以下大佬
 https://github.com/redrainl/iptv
 
 https://github.com/zjykfy/yy-ff-yy
