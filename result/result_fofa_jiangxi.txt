@@ -1,2 +1,2 @@
-956k  mail.tx.hxinbeng.top:4022
-953k  111.72.202.97:4050
+955k  mail.tx.hxinbeng.top:4022
+910k  111.72.202.97:4050
